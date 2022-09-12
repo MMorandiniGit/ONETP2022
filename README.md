@@ -11,24 +11,23 @@
 
 ## Computación 2022
 
-**Asignatura**: <!-- REEMPLAZA este comentario por el nombre de la asignatura -->
+**Asignatura**: Olimpíada Nacional de Educación Técnico Profesional 2022 Instancia Institucional
 
-**Nombre TP**: <!-- REEMPLAZA este comentario por el nombre del TP -->
+**Apellido y nombre Alumno**: Morandini Martin, Medina Lucas.
 
-**Apellido y nombre Alumno**: <!-- REEMPLAZA este comentario por tu apellido y nombre -->
+**Curso**: 6to 8va
 
-**Curso**: <!-- REEMPLAZA este comentario por tu curso -->
+# Olimpíada Nacional de Educación Técnico Profesional 2022
 
-# Título del Proyecto
-
-_Acá va un párrafo que describa lo que es el proyecto._
+Como futuros profesionales estámos conformando un equipo de trabajo y entre nosotros tenemos que
+resolver la situación problemática que nos fue presentada.  
 
 ## Comenzando 🚀
 
 Clonar el repositorio github, desde Github Desktop o ejecutar en la terminal o CMD:
 <!-- cambia el link de abajo al de tu repositorio y BORRA ESTE COMENTARIO -->
 ```
-git clone https://github.com/ET12DE1Computacion/simpleTemplateCSharp
+git clone https://github.com/MMorandiniGit/ONETP2022
 ```
 
 ### Pre-requisitos 📋
@@ -53,8 +52,8 @@ Usamos [SemVer](http://semver.org/) para el versionado. Para todas las versiones
 
 _Menciona a todos aquellos que ayudaron a levantar el proyecto desde sus inicios_
 
-* **Max Power** - *Desarrollo* - [Maxpower](https://github.com/maxpower)
-* **Cosme Fulanito** - *Documentación* - [Cosmefulanito](#Cosmefulanito)
+* **Martin Morandini** - *Desarrollo-Documentación* - [MMorandiniGit](https://github.com/MMorandiniGit)
+* **Cosme Fulanito** - *Desarrollo-Documentación* - [LucasMedina04](https://github.com/LucasMedina04)
 
 ## Licencia 📄
 
