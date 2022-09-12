@@ -1,4 +1,4 @@
-public class Museo : IEstablecimiento
+internal interface IEstablecimiento
 {
     public string Direccion { get; set; }
     public string Nombre { get; set; }
