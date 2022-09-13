@@ -7,8 +7,8 @@ public partial class Pagina_prueba : ContentPage
 		InitializeComponent();
 	}
 
-	private async void esto(object sender, EventArgs e)
+	private async void youtube(object sender, EventArgs e)
 	{
-        await Launcher.Default.OpenAsync("https://aka.ms/maui");
+        await Launcher.Default.OpenAsync("https://youtube.com.ar/nasa");
     }
 }

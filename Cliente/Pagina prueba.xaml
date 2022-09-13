@@ -8,6 +8,6 @@
             Text="Welcome to .NET MAUI!"
             VerticalOptions="Center" 
             HorizontalOptions="Center" />
-        <Button Text="Hola" Clicked="esto"/>
+        <Button Text="Hola" Clicked="youtube"/>
     </VerticalStackLayout>
 </ContentPage>
