@@ -1,13 +1,38 @@
 ```mermaid
 classDiagram
     direction LR
+
+    class Usuario{
+        -id: int
+        -nombre: string
+        -apellido: string
+        -email: string
+        -visitas: List~Visita~
+    }
+    
+    class Visita{
+        -recorrido: Recorrido
+        -guia: Guia
+        -fechaHora: Datetime
+    }
+
+    class Recorrido{
+        -id: int
+        -museo: Museo
+        -lista: List~Beepcon~
+    }
+
+    class Guia{
+        -id: int
+        -nombreCompleto: string
+        -idiomas: List~string~
+    }
+
     class Museo{
         -id: int
         -nombre: string
         -ubicacion: string
-        -guias: List~Guia~
-        -beebcons: List~Beepcon~
-        -recorridos: List~Recorrido~
+        -beepcons: List~Beepcon~
     }
 
     class Beepcon{
@@ -18,52 +43,20 @@ classDiagram
 
     class Muestra{
         -detalles: string
-        -fechaHora: dateTime
     }
 
-    class Recorrido{
-        -id: int
-        -guia: Guia
-        -lista: List~Beepcon~
-    }
+    Usuario -- Visita
 
-    class Usuario{
-        -id: int
-        -nombre: string
-        -apellido: string
-        -email: string
-        -discapacidad: Discapacidad?
-        -inscripciones: List~Inscripcion~
-    }
+    Visita -- Recorrido
 
-    class Discapacidad{
-        -id: int
-        -tipo: string
-    }
+    Visita -- Guia
 
-    class Guia{
-        -id: int
-        -nombreCompleto: string
-        -idiomas: List~string~
-    }
+    Recorrido -- Beepcon
 
-    class Inscripcion{
-        -museo: Museo
-        -idrecorrido: int
+    Museo -- Beepcon
 
-    }
+    Recorrido -- Museo
 
-    Museo *-- Beepcon
-    Museo *-- Recorrido
-    Museo *-- Guia
+    Beepcon -- Muestra
 
-    Inscripcion *-- Museo
-
-    Recorrido *-- Guia
-    Recorrido *-- Beepcon
-
-    Beepcon *-- Muestra
-
-    Usuario o-- "0..*" Discapacidad
-    Usuario <-- Inscripcion
 ```
