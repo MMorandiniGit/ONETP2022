@@ -9,7 +9,7 @@ classDiagram
         -email: string
         -visitas: List~Visita~
     }
-    
+
     class Visita{
         -recorrido: Recorrido
         -guia: Guia
@@ -50,13 +50,13 @@ classDiagram
     Visita -- Recorrido
 
     Visita -- Guia
-
+    
     Recorrido -- Beepcon
-
+    
     Museo -- Beepcon
-
+    
     Recorrido -- Museo
-
+    
     Beepcon -- Muestra
 
 ```
