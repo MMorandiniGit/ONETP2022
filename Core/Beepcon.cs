@@ -1,4 +1,9 @@
 public class Beepcon
 {
-    public string Descripcion { get; set; }
+    private int id;
+    private string nombre;
+    private Muestra muestra;
+    public int Id => id;
+    public string Nombre => nombre;
+    public Muestra Muestra => muestra;
 }
