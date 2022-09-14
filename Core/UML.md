@@ -45,18 +45,18 @@ classDiagram
         -detalles: string
     }
 
-    Usuario -- Visita
+    Usuario "0..*" *-- "0..*" Visita
 
-    Visita -- Recorrido
+    Visita "1" <-- "1" Recorrido
 
-    Visita -- Guia
+    Visita "1" <-- "1" Guia
     
-    Recorrido -- Beepcon
+    Recorrido "1..*" *-- "*" Beepcon
     
-    Museo -- Beepcon
+    Museo "1" *-- "*" Beepcon
     
-    Recorrido -- Museo
+    Recorrido "1..*" --* "1" Museo
     
-    Beepcon -- Muestra
+    Beepcon "1..*" <-- "1" Muestra
 
 ```
