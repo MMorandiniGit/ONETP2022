@@ -1,4 +1,4 @@
-public class Museo : IEstablecimiento
+public class Establecimiento : IEstablecimiento
 {
     public string Direccion { get; set; }
     public string Nombre { get; set; }
