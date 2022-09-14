@@ -9,6 +9,6 @@ public partial class Pagina_prueba : ContentPage
 
 	private async void youtube(object sender, EventArgs e)
 	{
-        await Launcher.Default.OpenAsync("https://youtube.com.ar/nasa");
+        await Launcher.Default.OpenAsync("https://www.youtube.com/watch?v=dQw4w9WgXcQ");
     }
 }
