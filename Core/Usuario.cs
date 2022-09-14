@@ -12,4 +12,7 @@ public class Usuario
     public string? Apellido { get; set; }
     [StringLength(45)]
     public string? email { get; set; }
+    [StringLength(45)]
+    public string? Discapacidad { get; set; }
+    public List<Inscripcion> Inscripciones { get; set; }
 }
