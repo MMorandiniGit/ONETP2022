@@ -1,7 +1,7 @@
 ```mermaid
 classDiagram
     direction LR
-
+    
     class Usuario{
         -id: int
         -nombre: string
@@ -47,13 +47,13 @@ classDiagram
 
     Usuario "0..*" *-- "0..*" Visita
 
-    Visita "1" <-- "1" Recorrido
+    Visita "0..*" <-- "1" Recorrido
 
-    Visita "1" <-- "1" Guia
+    Visita "0..*" <-- "1" Guia
     
-    Recorrido "1..*" *-- "*" Beepcon
+    Recorrido "1..*" *-- "1..*" Beepcon
     
-    Museo "1" *-- "*" Beepcon
+    Museo "1" *-- "1..*" Beepcon
     
     Recorrido "1..*" --* "1" Museo
     
