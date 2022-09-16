@@ -14,8 +14,10 @@ body{
 }
 
 .sector{
-    padding-right: 3%;
+    padding-left: 0px;
+    size: 30px;
 }
+
 
 .textos{ 
     font-size: 17px;
@@ -24,7 +26,14 @@ body{
     color: rgb(37, 37, 37);
 }
 
-.seleccion{
+
+.labol2{
+    padding-right: 20px;
+    padding-right: 20%;
+}
+
+
+.sector option{
     border-radius: 5px;
     padding-right: 0%;
     font-size: 18px;
@@ -33,10 +42,6 @@ body{
     display: block;
     height: 23px;
     
-}
-
-.labol2{
-    padding-right: 50px;
 }
 
 .cuadro{
