@@ -11,14 +11,6 @@
             Title="Inicio"
             ContentTemplate="{DataTemplate local:MainPage}"
             Route="MainPage" />
-        <ShellContent
-            Title="Plano del Museo"
-            ContentTemplate="{DataTemplate local:Pagina_prueba}"
-            Route="Pagina prueba"/>
-        <ShellContent
-            Title="Informacion del museo"
-            ContentTemplate="{DataTemplate local:Info_museo}"
-            Route="Information Museum"/>
     </TabBar>
 
 </Shell>
