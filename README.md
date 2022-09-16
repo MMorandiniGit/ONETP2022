@@ -1,7 +1,7 @@
 <!-- Completa abajo cambiando ET12DE1Computacion a tu user|organización y template a tu repo, te recomiendo usar el Find & Replace de tu editor -->
-![main build.NET6](https://github.com/MMorandiniGit/ONETP2022/simpleTemplateCSharp/workflows/main-build.NET6/badge.svg?branch=main) ![main test.NET6](https://github.com/MMorandiniGit/ONETP2022/simpleTemplateCSharp/workflows/main-test.NET6/badge.svg?branch=main)
-![dev build.NET6](https://github.com/MMorandiniGit/ONETP2022/simpleTemplateCSharp/workflows/dev-build.NET6/badge.svg?branch=dev) ![dev test.NET6](https://github.com/MMorandiniGit/ONETP2022/simpleTemplateCSharp/workflows/dev-test.NET6/badge.svg?branch=dev)
-[![Abrir en Visual Studio Code](https://img.shields.io/static/v1?logo=visualstudiocode&label=&message=Abrir%20en%20Visual%20Studio%20Code&labelColor=2c2c32&color=007acc&logoColor=007acc)](https://open.vscode.dev/MMorandiniGit/ONETP2022/simpleTemplateCSharp)
+![main build.NET6](https://github.com/MMorandiniGit/ONETP2022/workflows/main-build.NET6/badge.svg?branch=main) ![main test.NET6](https://github.com/MMorandiniGit/ONETP2022/workflows/main-test.NET6/badge.svg?branch=main)
+![dev build.NET6](https://github.com/MMorandiniGit/ONETP2022/simpleTemplateCSharp/workflows/dev-build.NET6/badge.svg?branch=dev) ![dev test.NET6](https://github.com/MMorandiniGit/ONETP2022/workflows/dev-test.NET6/badge.svg?branch=dev)
+[![Abrir en Visual Studio Code](https://img.shields.io/static/v1?logo=visualstudiocode&label=&message=Abrir%20en%20Visual%20Studio%20Code&labelColor=2c2c32&color=007acc&logoColor=007acc)](https://open.vscode.dev/MMorandiniGit/ONETP2022/)
 
 <h1 align="center">E.T. Nº12 D.E. 1º "Libertador Gral. José de San Martín"</h1>
 <p align="center">
@@ -47,14 +47,16 @@ _Menciona las herramientas y versiones que utilizaste para crear tu proyecto_
 
 ## Versionado 📌
 
-Usamos [SemVer](http://semver.org/) para el versionado. Para todas las versiones disponibles, mira los [tags en este repositorio](https://github.com/ET12DE1Computacion/simpleTemplateCSharp/tags).
+Usamos [SemVer](http://semver.org/) para el versionado. Para todas las versiones disponibles, mira los [tags en este repositorio](https://github.com/MMorandiniGit/ONETP2022/tags).
 
 ## Autores ✒️
 
 _Menciona a todos aquellos que ayudaron a levantar el proyecto desde sus inicios_
 
-* **Martin Morandini** - *Desarrollo-Documentación* - [MMorandiniGit](https://github.com/MMorandiniGit)
-* **Cosme Fulanito** - *Desarrollo-Documentación* - [LucasMedina04](https://github.com/LucasMedina04)
+* **Martin Morandini** - *Desarrollo - Documentación* - [MMorandiniGit](https://github.com/MMorandiniGit)
+* **Lucas Medina** - *Desarrollo* - [LucasMedina04](https://github.com/LucasMedina04)
+* **Ezequiel Kippes** - *Desarrollo - Documentación* - [Liono02](https://github.com/Liono02)
+* **Lucas Felix** - *Desarrollo - Documentación* - [LucasFelix240](https://github.com/LucasFelix240)
 
 ## Licencia 📄
 
